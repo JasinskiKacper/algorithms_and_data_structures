@@ -1,5 +1,5 @@
-# algorithms and data structures python
-this repository contains implementations of algorithms and data structures
+# Algorithms and data structures python
+This repository contains implementations of algorithms and data structures
 
-# table of contents
-1. matrix class, chio determinant 
+## Table of contents
+1. Matrix class, chio determinant 
