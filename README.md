@@ -4,7 +4,7 @@ This repository contains implementations of algorithms and data structures
 ## Table of contents
 1. Matrix class, chio determinant 
 2. Linked list, doubly linked list
-3.---
+3. Queue, unrolled linked list
 4.---
 5.---
 6.---

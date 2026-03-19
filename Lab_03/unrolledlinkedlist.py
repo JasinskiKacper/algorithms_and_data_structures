@@ -44,8 +44,29 @@ class UnrolledLinkedList:
                     new_node.add(value, index - start.fill)
             else:
                 start.add(value, index)
-    def delete(self):
-        pass
+    
+    def delete(self, index: int):
+        if self.head == None:
+            return None
+        start = self.head
+        while index >= start.fill:
+            if start.next == None:
+                start.tab[start.fill - 1] = None
+                break
+            index = index - start.fill
+            start = start.next
+        if start.next != None:
+            start.remove(index)
+            while start.fill < (NODE_SIZE // 2):
+                start.tab[start.fill] = start.next.tab[0]
+                start.next.remove(0)
+                start.fill += 1
+                if start.next.fill < (NODE_SIZE // 2):
+                    while start.next.fill > 0:
+                        start.tab[start.fill] = start.next.tab[0]
+                        start.fill += 1
+                        start.next.remove(0)
+                    start.next = start.next.next
 
 class Node:
     def __init__(self):
@@ -78,10 +99,15 @@ class Node:
             
 def main():
     test = UnrolledLinkedList()
-    for i in range(1, 11):
-        test.insert(i, 999) 
-    print(test.head.tab, test.head.fill)
-    print(test.head.next.tab, test.head.next.fill)
+    for i in range(10):
+        test.insert(i, 0)
+    print(test.get(4))
+    test.insert(10, 1)
+    test.insert(11, 8)
+    print(test.head.tab, test.head.next.tab, test.head.next.next.tab)
+    test.delete(1)
+    test.delete(2)
+    print(test.head.tab, test.head.next.tab, test.head.next.next.tab)
 
 if __name__ == '__main__':
     main()
