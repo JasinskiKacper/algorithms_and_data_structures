@@ -99,7 +99,7 @@ class Node:
             
 def main():
     test = UnrolledLinkedList()
-    for i in range(10):
+    for i in range(1, 10):
         test.insert(i, 0)
     print(test.get(4))
     test.insert(10, 1)
@@ -107,7 +107,7 @@ def main():
     print(test.head.tab, test.head.next.tab, test.head.next.next.tab)
     test.delete(1)
     test.delete(2)
-    print(test.head.tab, test.head.next.tab, test.head.next.next.tab)
+    print(test.head.tab, test.head.next.tab)
 
 if __name__ == '__main__':
     main()
