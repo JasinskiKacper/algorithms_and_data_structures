@@ -6,7 +6,7 @@ This repository contains implementations of algorithms and data structures
 2. Linked list, doubly linked list
 3. Queue, unrolled linked list
 4. Hash table, skip list
-5.---
+5. Binary tree
 6.---
 7.---
 8.---
