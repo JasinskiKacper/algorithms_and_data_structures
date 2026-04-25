@@ -8,7 +8,7 @@ This repository contains implementations of algorithms and data structures
 4. Hash table, skip list
 5. Binary tree
 6. Heap
-7.---
+7. Heapsort, shell sort
 8.---
 9.---
 10.---
