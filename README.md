@@ -11,7 +11,7 @@ This repository contains implementations of algorithms and data structures
 7. Heapsort, shell sort
 8. Graph
 9. Ford-Fulkerson
-10.---
+10. Minimum Spanning Tree (Prim's algorithm)
 11.---
 12.---
 13.---
