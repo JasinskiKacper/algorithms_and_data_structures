@@ -12,7 +12,7 @@ This repository contains implementations of algorithms and data structures
 8. Graph
 9. Ford-Fulkerson
 10. Minimum Spanning Tree (Prim and Kruskal algorithms)
-11.---
+11. Ullmann algorithms (graph isomorphism)
 12.---
 13.---
 14.---
