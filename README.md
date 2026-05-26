@@ -13,6 +13,6 @@ This repository contains implementations of algorithms and data structures
 9. Ford-Fulkerson
 10. Minimum Spanning Tree (Prim and Kruskal algorithms)
 11. Ullmann algorithms (graph isomorphism)
-12.---
+12. Pattern matching (Naive and Rabin)
 13.---
 14.---
