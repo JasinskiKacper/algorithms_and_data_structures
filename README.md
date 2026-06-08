@@ -14,5 +14,5 @@ This repository contains implementations of algorithms and data structures
 10. Minimum Spanning Tree (Prim and Kruskal algorithms)
 11. Ullmann algorithms (graph isomorphism)
 12. Pattern matching (Naive and Rabin)
-13.---
+13. Approximate String Matching (Recursive and Dynamic Programming)
 14.---
