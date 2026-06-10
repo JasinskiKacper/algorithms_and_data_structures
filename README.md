@@ -11,8 +11,8 @@ This repository contains implementations of algorithms and data structures
 7. Heapsort, shell sort
 8. Graph
 9. Ford-Fulkerson
-10. Minimum Spanning Tree (Prim and Kruskal algorithms)
+10. Minimum spanning tree (Prim and Kruskal algorithms)
 11. Ullmann algorithms (graph isomorphism)
 12. Pattern matching (Naive and Rabin)
-13. Approximate String Matching (Recursive and Dynamic Programming)
-14.---
+13. Approximate string matching (Recursive and Dynamic Programming)
+14. Convex hull (Jarvis March and Graham Scan)
